@@ -1,0 +1,122 @@
+.root{
+    --primarycolor--:rgba(165, 42, 42, 0.696);
+}
+table{
+    background-color: black;
+    margin:50px 0px;
+    height:auto;
+    color:#ffffff;
+}
+td{
+    /* border:1px solid; */
+     width: 40px;
+    height: 40px;
+    text-align: center;
+    /* background-color: yellow; */
+    border-radius: 5px;
+    border-collapse: collapse;
+    color:#ffffff;
+}
+#td1{
+    background-color:#405575;
+    font-size: 20px;
+    border: none;
+}
+#td1:hover{
+    background-color:#405575;
+    font-size: 32px;
+    border-radius: 6px;
+    width:50px;
+     height:50px;
+}
+#td2{
+    background-color:#325961;
+    font-size: 20px;
+    border: none;
+}
+#td2:hover{
+    background-color:#325961;
+    font-size: 32px;
+    border-radius: 6px;
+    width:50px;
+     height:50px;
+}
+#td3{
+    border:none;
+    text-align: bottom;
+}
+#td4{
+    background-color:rgba(165, 42, 42, 0.696);
+    font-size: 20px;
+    border: none;
+}
+#td4:hover{
+    background-color:rgba(165, 42, 42, 0.696);
+    font-size: 32px;
+    border-radius: 6px;
+    width:50px;
+     height:50px;
+}
+#td5{
+    background-color:#004C80;
+    font-size: 20px;
+    border: none;
+}
+#td5:hover{
+    background-color:#004C80;
+    font-size: 32px;
+    border-radius: 6px;
+    width:50px;
+     height:50px;
+}
+#td6{
+    background-color:#4B3D63;
+    font-size: 20px;
+    border: none;
+}
+#td6:hover{
+    background-color:#4B3D63;
+    font-size: 32px;
+    border-radius: 6px;
+    width:50px;
+     height:50px;
+}
+#td7{
+    background-color:#325961;
+    font-size: 20px;
+    border: none;
+}
+#td7:hover{
+    background-color:#325961;
+    font-size: 32px;
+    border-radius: 6px;
+    width:50px;
+     height:50px;
+}
+#td8{
+    background-color:#672525;
+    font-size: 20px;
+    border: none;
+}
+#td8:hover{
+    background-color:#672525;
+    font-size: 32px;
+    border-radius: 6px;
+    width:50px;
+     height:50px;
+}
+#td9{
+    background-color:#333333;
+    font-size: 20px;
+    border: none;
+}
+#td9:hover{
+    background-color:#333333;
+    font-size: 32px;
+    border-radius: 6px;
+    width:50px;
+     height:50px;
+}
+div{
+    margin-top:20px;
+}
