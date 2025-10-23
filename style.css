@@ -8,38 +8,37 @@ table{
     color:#ffffff;
 }
 td{
-    /* border:1px solid; */
-     width: 40px;
-    height: 40px;
     text-align: center;
     /* background-color: yellow; */
     border-radius: 5px;
     border-collapse: collapse;
     color:#ffffff;
+    width:500%;
 }
 #td1{
     background-color:#405575;
     font-size: 20px;
     border: none;
+    width:100%;
 }
 #td1:hover{
     background-color:#405575;
     font-size: 32px;
     border-radius: 6px;
-    width:50px;
+    width:100%;
      height:50px;
 }
 #td2{
     background-color:#325961;
     font-size: 20px;
     border: none;
+    width:300%;
 }
 #td2:hover{
     background-color:#325961;
     font-size: 32px;
     border-radius: 6px;
-    width:50px;
-     height:50px;
+    width:100%;
 }
 #td3{
     border:none;
