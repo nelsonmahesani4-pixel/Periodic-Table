@@ -1,11 +1,10 @@
-.root{
-    --primarycolor--:rgba(165, 42, 42, 0.696);
-}
 table{
     background-color: black;
     /* margin:50px 0px; */
     /* color:#ffffff; */
     /* border:1px solid; */
+    margin:0px auto;
+    border-collapse: separate;
 }
 #heading{
     font-size: 32px;
@@ -41,10 +40,10 @@ p:hover{
 }
 .cell1{
     font-size:22px;
-    text-align: right;
+   text-align: right;
     padding-left:20px;
     padding-right:20px;
-    color:black;
+    color:#ffffff;
     border:none;
 }
 td{
@@ -53,7 +52,6 @@ td{
     border-radius: 5px;
     /* border-collapse: collapse; */
     color:#ffffff;
-    border: 1px solid;
 }
 #td1{
     background-color:#405575;
@@ -81,13 +79,21 @@ td{
      padding-left:30px;
     padding-right:30px;
 }
-.emptycell{
+.cell{
+    color:#ffffff;
+    font-size: 32px;
+}
+#emptycell1{
+    empty-cells: hide;
+    border: none;
+}
+#emptycell{
     empty-cells: hide;
     border: none;
 }
 #td3{
     border:none;
-    text-align: bottom;
+    color:white;
 }
 #td4{
     background-color:rgba(165, 42, 42, 0.696);
@@ -132,7 +138,7 @@ td{
 }
 #td7:hover{
     background-color:#325961;
-    font-size: 48px;
+    font-size: 32px;
     border-radius: 6px;
      padding-left:30px;
     padding-right:30px;
@@ -145,14 +151,15 @@ td{
 #td8{
     background-color:#672525;
     font-size: 20px;
+    border: none;
 }
 #td8:hover{
-    color: aqua;
     background-color:#672525;
     font-size: 32px;
     border-radius: 6px;
      padding-left:30px;
     padding-right:30px;
+    border: none;
 }
 #td9{
     background-color:#333333;
@@ -168,4 +175,10 @@ td{
 }
 div{
     margin-top:20px;
+}
+#row{
+    border:1px solid white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
 }
